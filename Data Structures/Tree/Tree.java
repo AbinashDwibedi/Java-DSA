@@ -44,6 +44,7 @@ public class Tree<T>{
             }
             else{
                 que.add(currNode.right);
+                //que.add(currNode.left);
             }
         }
     }
